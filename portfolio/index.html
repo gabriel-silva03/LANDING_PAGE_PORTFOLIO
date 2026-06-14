@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Gabriel Silva</title>
+
+    <!-- Conectando o arquivo CSS (visual) -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fonte do Google (Poppins) - deixa o texto mais bonito -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Ícones (Font Awesome) - pra usar ícones bonitos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ===================== -->
+    <!-- NAVEGAÇÃO (menu fixo) -->
+    <!-- ===================== -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">&lt;Dev /&gt;</a>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="menu-hamburguer" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===================== -->
+    <!-- SEÇÃO HERO (abertura) -->
+    <!-- ===================== -->
+    <section id="home" class="hero">
+        <div class="hero-conteudo">
+            <p class="hero-saudacao">Olá, eu sou</p>
+            <h1 class="hero-nome">Gabriel Silva</h1>
+            <h2 class="hero-titulo">
+                <span id="texto-digitado"></span><span class="cursor">|</span>
+            </h2>
+            <p class="hero-descricao">
+                Transformando ideias em código. Criando soluções digitais
+                com paixão e dedicação.
+            </p>
+            <div class="hero-botoes">
+                <a href="#projetos" class="btn btn-principal">Ver Projetos</a>
+                <a href="#contato" class="btn btn-secundario">Fale Comigo</a>
+            </div>
+        </div>
+        <div class="hero-decoracao">
+            <div class="circulo circulo-1"></div>
+            <div class="circulo circulo-2"></div>
+            <div class="circulo circulo-3"></div>
+        </div>
+    </section>
+
+    <!-- ===================== -->
+    <!-- SEÇÃO SOBRE MIM       -->
+    <!-- ===================== -->
+    <section id="sobre" class="secao">
+        <div class="secao-container">
+            <h2 class="secao-titulo">Sobre Mim</h2>
+            <div class="sobre-grid">
+                <div class="sobre-foto">
+                    <img src="img/perfil.jpg" alt="Foto de perfil">
+                    <div class="foto-borda"></div>
+                </div>
+                <div class="sobre-texto">
+                    <h3>Quem sou eu?</h3>
+                    <p>
+                        Olá! Me chamo <strong>Gabriel Silva</strong> e sou um desenvolvedor
+                        em formação, apaixonado por tecnologia e criação de
+                        soluções digitais.
+                    </p>
+                    <p>
+                        Estou em constante aprendizado, buscando evoluir a cada dia
+                        e construir projetos que façam a diferença.
+                    </p>
+                    <div class="sobre-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Guaianazes, SP</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>gabriel898730@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Estudante de Desenvolvimento Front-End & UI/UX</span>
+                        </div>
+                    </div>
+                    <a href="#contato" class="btn btn-principal">Entre em Contato</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== -->
+    <!-- SEÇÃO HABILIDADES     -->
+    <!-- ===================== -->
+    <section id="habilidades" class="secao secao-escura">
+        <div class="secao-container">
+            <h2 class="secao-titulo">Habilidades</h2>
+            <div class="habilidades-grid">
+
+                <div class="habilidade-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <div class="barra-container">
+                        <div class="barra-progresso" data-porcentagem="90">
+                            <span class="barra-texto">90%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="habilidade-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <div class="barra-container">
+                        <div class="barra-progresso" data-porcentagem="85">
+                            <span class="barra-texto">85%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="habilidade-card">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript</h3>
+                    <div class="barra-container">
+                        <div class="barra-progresso" data-porcentagem="75">
+                            <span class="barra-texto">75%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="habilidade-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <div class="barra-container">
+                        <div class="barra-progresso" data-porcentagem="60">
+                            <span class="barra-texto">60%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="habilidade-card">
+                    <i class="fab fa-git-alt"></i>
+                    <h3>Git</h3>
+                    <div class="barra-container">
+                        <div class="barra-progresso" data-porcentagem="70">
+                            <span class="barra-texto">70%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="habilidade-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Banco de Dados</h3>
+                    <div class="barra-container">
+                        <div class="barra-progresso" data-porcentagem="55">
+                            <span class="barra-texto">55%</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== -->
+    <!-- SEÇÃO PROJETOS        -->
+    <!-- ===================== -->
+    <section id="projetos" class="secao">
+        <div class="secao-container">
+            <h2 class="secao-titulo">Meus Projetos</h2>
+            <div class="projetos-grid">
+
+                <div class="projeto-card">
+                    <div class="projeto-imagem">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600" alt="Projeto 1">
+                        <div class="projeto-overlay">
+                            <a href="#" class="btn-projeto">Ver Mais</a>
+                        </div>
+                    </div>
+                    <div class="projeto-info">
+                        <h3>Site Institucional</h3>
+                        <p>Landing page moderna para empresa fictícia com design responsivo.</p>
+                        <div class="projeto-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projeto-card">
+                    <div class="projeto-imagem">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600" alt="Projeto 2">
+                        <div class="projeto-overlay">
+                            <a href="#" class="btn-projeto">Ver Mais</a>
+                        </div>
+                    </div>
+                    <div class="projeto-info">
+                        <h3>Dashboard de Dados</h3>
+                        <p>Painel de visualização de dados com gráficos interativos.</p>
+                        <div class="projeto-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">Power BI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projeto-card">
+                    <div class="projeto-imagem">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1074" alt="Projeto 3">
+                        <div class="projeto-overlay">
+                            <a href="#" class="btn-projeto">Ver Mais</a>
+                        </div>
+                    </div>
+                    <div class="projeto-info">
+                        <h3>App de Tarefas</h3>
+                        <p>Aplicativo web para gerenciar tarefas com filtros e categorias.</p>
+                        <div class="projeto-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">LocalStorage</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projeto-card">
+                    <div class="projeto-imagem">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600" alt="Projeto 4">
+                        <div class="projeto-overlay">
+                            <a href="#" class="btn-projeto">Ver Mais</a>
+                        </div>
+                    </div>
+                    <div class="projeto-info">
+                        <h3>Portfólio Pessoal</h3>
+                        <p>Este próprio site! Portfólio profissional com animações e efeitos.</p>
+                        <div class="projeto-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== -->
+    <!-- SEÇÃO CONTATO         -->
+    <!-- ===================== -->
+    <section id="contato" class="secao secao-escura">
+        <div class="secao-container">
+            <h2 class="secao-titulo">Contato</h2>
+            <div class="contato-grid">
+
+                <div class="contato-info">
+                    <h3>Vamos conversar!</h3>
+                    <p>
+                        Tem um projeto em mente? Quer trocar uma ideia sobre tecnologia?
+                        Me manda uma mensagem!
+                    </p>
+                    <div class="contato-meios">
+                        <div class="contato-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>E-mail</strong>
+                                <p>gabriel898730@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contato-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Telefone</strong>
+                                <p>(11) 99118-5925 (WhatsApp)</p>
+                            </div>
+                        </div>
+                        <div class="contato-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <strong>LinkedIn</strong>
+                                <p>https://www.linkedin.com/in/gabriel-silva-978a43255/</p>
+                            </div>
+                        </div>
+                        <div class="contato-item">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <strong>GitHub</strong>
+                                <p>https://github.com/gabriel-silva03</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contato-formulario">
+                    <form id="form-contato">
+                        <div class="form-grupo">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                        </div>
+                        <div class="form-grupo">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="seuemail@email.com" required>
+                        </div>
+                        <div class="form-grupo">
+                            <label for="assunto">Assunto</label>
+                            <input type="text" id="assunto" name="assunto" placeholder="Qual o assunto?">
+                        </div>
+                        <div class="form-grupo">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-principal btn-enviar">
+                            <i class="fas fa-paper-plane"></i> Enviar Mensagem
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== -->
+    <!-- RODAPÉ               -->
+    <!-- ===================== -->
+    <footer class="rodape">
+        <div class="rodape-container">
+            <div class="rodape-social">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p class="rodape-texto">
+                &copy; 2026 <strong>Gabriel Silva</strong> — Todos os direitos reservados.
+            </p>
+            <p class="rodape-credito">
+                Feito com <i class="fas fa-heart" style="color: #ff6b6b;"></i> e muito código
+            </p>
+        </div>
+    </footer>
+
+    <!-- Botão voltar ao topo -->
+    <button id="btn-topo" class="btn-topo" title="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Conectando o arquivo JavaScript (interações) -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
+
