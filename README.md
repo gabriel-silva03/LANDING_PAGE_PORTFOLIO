@@ -1,2 +1,11 @@
-# LANDING_PAGE_PORTFOLIO
-Desenvolvimento de uma landing page para portfólio profissional, utilizando HTML5, CSS e JavaScript (Vanilla)
+# Landing Page de Portfólio
+
+Projeto desenvolvido para apresentar meus trabalhos profissionais.
+
+## Tecnologias utilizadas
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+
+## Como rodar
+Basta abrir o arquivo `index.html` no seu navegador.
