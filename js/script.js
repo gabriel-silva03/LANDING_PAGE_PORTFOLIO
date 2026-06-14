@@ -5,7 +5,7 @@
 // Aqui você pode trocar as frases que vão ser "digitadas"
 const frases = [
     "Desenvolvedor Front-End em Formação",
-    "Designer & Analista de Interfaces (UI/UX)",
+    "Analista de Sistemas e Interfaces (UI/UX)",
     "Apaixonado por Games e Código"
 ];
 
